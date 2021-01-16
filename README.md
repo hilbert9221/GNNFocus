@@ -5,13 +5,13 @@ Focused areas in graph neural networks (GNNs). Written in both English and Chine
 #### A Possible Subfield
 - **Title in bold font.** *Authors in italic font.* Journal / Conference year in normal font.
   - group (optional): a famous group, e.g., Someone's group, Some University.
-  - [paper (must)](link), [code (optional)](link), [slides (optional)](link), [project page (optional)](link), [review (optional)](link) 
-  - blogs (optional): [blogs](link)
+  - [paper (must)](README.md), [code (optional)](README.md), [slides (optional)](README.md), [project page (optional)](README.md), [review (optional)](README.md) 
+  - blogs (optional): [blogs](README.md)
   - contributions (must)
     - In flexible forms.
     - About the method.
     - About the experiments.
-  - [note (optional)](link): write a note in markdown and provide the path of the file.
+  - [note (optional)](README.md): write a note in markdown and provide the path of the file.
     - path: `nodes/field/title_conference&year.md`
 ## Expressive Power
 #### Permutation Equivariant GNNs
