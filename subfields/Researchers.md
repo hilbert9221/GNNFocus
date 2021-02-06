@@ -4,7 +4,7 @@
   - [Weihua Hu](http://web.stanford.edu/~weihuahu/): [OGB](https://ogb.stanford.edu/)
 - [Shirui Pan](https://shiruipan.github.io/)'s Group, Monash University
 - [Chuan Shi](http://www.shichuan.org/ShiChuan_ch.html)'s Group, BUPT
-  - Houye Ji: HAN
+  - Houye Ji: [HAN](https://github.com/Jhy1993/HAN)
 - [Jian Tang](https://jian-tang.com/)'s Group, Mila
 - [Thomas Kipf](http://tkipf.github.io/), Google Brain: [GCN](https://github.com/tkipf/gcn)
 - [Petar Veličković](https://petar-v.com/), DeepMind: [GAT](https://github.com/PetarV-/GAT)
