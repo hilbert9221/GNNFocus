@@ -18,7 +18,7 @@
   - resources: [paper](https://proceedings.neurips.cc/paper/2020/file/3fe230348e9a12c13120749e3f9fa4cd-Paper.pdf), [code](https://github.com/Shen-Lab/GraphCL)
   - contributions:
     - Contrastive learning via data augmentation: add / delete nodes / edges, attribute masking, subgraph
-- **InfoGraph: Unsupervised and Semi-supervised Graph-Level Representation Learning via Mutual Information Maximization.** *Fan-Yun Sun, Jordan Hoffmann, Vikas Verma, Jian Tang* ICLR 2020.
+- **InfoGraph: Unsupervised and Semi-supervised Graph-Level Representation Learning via Mutual Information Maximization.** *Fan-Yun Sun, Jordan Hoffmann, Vikas Verma, Jian Tang.* ICLR 2020.
   - resouces: [paper](https://openreview.net/pdf?id=r1lfF2NYvH), [review](https://openreview.net/forum?id=r1lfF2NYvH), [code](https://github.com/fanyun-sun/InfoGraph)
 - **Contrastive Multi-View Representation Learning on Graphs.** *Kaveh Hassani, Amir Hosein Khasahmadi.* ICML 2020.
   - resources: [paper](http://proceedings.mlr.press/v119/hassani20a/hassani20a.pdf), [code](https://github.com/kavehhassani/mvgrl)
