@@ -8,7 +8,7 @@
 - **Contrastive Self-­Supervised Learning for Graph Classification.** *Jiaqi Zeng, Pengtao Xie.* AAAI 2021.
   - resources: [paper](https://arxiv.org/pdf/2009.05923.pdf)
   - contributions:
-    - Contrastive learning via data augmentation: add / delete nodes /edges, **similar to You et al. in NeurIPS.**
+    - Contrastive learning via data augmentation: add / delete nodes /edges, **similar to [You et al. in NeurIPS 2020](https://proceedings.neurips.cc/paper/2020/file/3fe230348e9a12c13120749e3f9fa4cd-Paper.pdf).**
     - [Moco](https://github.com/facebookresearch/moco) for optimization.
 - **Data Augmentation for Graph Neural Networks.** *Tong Zhao, Yozen Liu, Leonardo Neves, Oliver Woodford, Meng Jiang, Neil Shah.* AAAI 2021.
   - resources: [paper](https://arxiv.org/pdf/2006.06830.pdf), [code](https://github.com/zhao-tong/GAug)
@@ -18,9 +18,11 @@
   - resources: [paper](https://proceedings.neurips.cc/paper/2020/file/3fe230348e9a12c13120749e3f9fa4cd-Paper.pdf), [code](https://github.com/Shen-Lab/GraphCL)
   - contributions:
     - Contrastive learning via data augmentation: add / delete nodes / edges, attribute masking, subgraph
-- **InfoGraph: Unsupervised and Semi-supervised Graph-Level Representation Learning via Mutual Information Maximization.** *Fan-Yun Sun, Jordan Hoffmann, Vikas Verma, Jian Tang*
-- **Contrastive Multi-View Representation Learning on Graphs.** *Kaveh Hassani, Amir Hosein Khasahmadi*
-- **When Does Self-Supervision Help Graph Convolutional Networks?** ** ICML 2020.
+- **InfoGraph: Unsupervised and Semi-supervised Graph-Level Representation Learning via Mutual Information Maximization.** *Fan-Yun Sun, Jordan Hoffmann, Vikas Verma, Jian Tang* ICLR 2020.
+  - resouces: [paper](https://openreview.net/pdf?id=r1lfF2NYvH), [review](https://openreview.net/forum?id=r1lfF2NYvH), [code](https://github.com/fanyun-sun/InfoGraph)
+- **Contrastive Multi-View Representation Learning on Graphs.** *Kaveh Hassani, Amir Hosein Khasahmadi.* ICML 2020.
+  - resources: [paper](http://proceedings.mlr.press/v119/hassani20a/hassani20a.pdf), [code](https://github.com/kavehhassani/mvgrl)
+- **When Does Self-Supervision Help Graph Convolutional Networks?** *Yuning You, Tianlong Chen, Zhangyang Wang, Yang Shen.* ICML 2020.
   - resources: [paper](http://proceedings.mlr.press/v119/you20a/you20a.pdf), [code](https://github.com/Shen-Lab/SS-GCNs)
   - contributions:
     - 3 schemes: pre-training/finetuning, self-training, multi-task training
