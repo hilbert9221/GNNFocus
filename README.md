@@ -22,6 +22,8 @@ Focused areas in graph neural networks (GNNs). Written in both English and Chine
 ## [Researchers](subfields/Researchers.md)
 
 ## [Expressive Power](subfields/Expressive%20Power.md)
+- Intro: Expressive Power of GNNs and permutation equivariant GNNs.
+- Survey: **A Survey on The Expressive Power of Graph Neural Networks.** *Ryoma Sato.* CoRR 2020. [paper](https://arxiv.org/pdf/2003.04078v4)
 
 ## [Pre-training / Self-supervised Learning](subfields/Pre-training+Self-supervised%20Learning.md)
 - Intro：Pre-training GNNs or training GNNs in a self-supervised manner to allow better generalization.
