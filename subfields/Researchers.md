@@ -1,0 +1,14 @@
+- [Jure Leskovec](https://cs.stanford.edu/people/jure/)'s Group, Stanford University: [node2vec](https://github.com/aditya-grover/node2vec)
+  - [Zhitao Ying](https://cs.stanford.edu/people/rexy/): [GraphSage](https://github.com/williamleif/GraphSAGE)
+  - [Jiaxuan You](https://cs.stanford.edu/~jiaxuan/)
+  - [Weihua Hu](http://web.stanford.edu/~weihuahu/): [OGB](https://ogb.stanford.edu/)
+- [Shirui Pan](https://shiruipan.github.io/)'s Group, Monash University
+- [Chuan Shi](http://www.shichuan.org/ShiChuan_ch.html)'s Group, BUPT
+  - Houye Ji: HAN
+- [Jian Tang](https://jian-tang.com/)'s Group, Mila
+- [Thomas Kipf](http://tkipf.github.io/), Google Brain: [GCN](https://github.com/tkipf/gcn)
+- [Petar Veličković](https://petar-v.com/), DeepMind: [GAT](https://github.com/PetarV-/GAT)
+- [Keyulu Xu](https://people.csail.mit.edu/keyulux/), MIT: [GIN](https://github.com/weihua916/powerful-gnns)
+- [Pim de Haan](https://pimdehaan.com/), University of Amsterdam
+- [Xavier Bresson](http://www.ntu.edu.sg/home/xbresson), NTU: [ChebNet](https://github.com/xbresson/spectral_graph_convnets)
+- [William Hamilton](https://williamleif.github.io/), McGill University: [GraphSage](https://github.com/williamleif/GraphSAGE)

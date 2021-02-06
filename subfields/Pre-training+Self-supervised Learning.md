@@ -1,0 +1,49 @@
+[TOC]
+## Self-supervised / Unsupervised Learning
+- **Contrastive and Generative Graph Convolutional Networks for Graph Based Semi-supervised Learning.** *Sheng Wan, Shirui Pan, Jian Yang, Chen Gong.* AAAI 2021.
+  - resources: [paper](https://arxiv.org/pdf/2009.07111v1)
+  - contributions:
+    - Contrastive learing: local view via typical GNNs, global view via hierarchical GNNs.
+    - Generative learning: edge reconstruction.
+- **Contrastive Self-­Supervised Learning for Graph Classification.** *Jiaqi Zeng, Pengtao Xie.* AAAI 2021.
+  - resources: [paper](https://arxiv.org/pdf/2009.05923.pdf)
+  - contributions:
+    - Contrastive learning via data augmentation: add / delete nodes /edges, **similar to You et al. in NeurIPS.**
+    - [Moco](https://github.com/facebookresearch/moco) for optimization.
+- **Data Augmentation for Graph Neural Networks.** *Tong Zhao, Yozen Liu, Leonardo Neves, Oliver Woodford, Meng Jiang, Neil Shah.* AAAI 2021.
+  - resources: [paper](https://arxiv.org/pdf/2006.06830.pdf), [code](https://github.com/zhao-tong/GAug)
+  - contributions:
+    - Data augmentation using the predicted results of graph auto-encoders.
+- **Graph Contrastive Learning with Augmentations.** *Yuning You, Tianlong Chen, Yongduo Sui, Ting Chen, Zhangyang Wang, Yang Shen.* NeurIPS 2020.
+  - resources: [paper](https://proceedings.neurips.cc/paper/2020/file/3fe230348e9a12c13120749e3f9fa4cd-Paper.pdf), [code](https://github.com/Shen-Lab/GraphCL)
+  - contributions:
+    - Contrastive learning via data augmentation: add / delete nodes / edges, attribute masking, subgraph
+- **InfoGraph: Unsupervised and Semi-supervised Graph-Level Representation Learning via Mutual Information Maximization.** *Fan-Yun Sun, Jordan Hoffmann, Vikas Verma, Jian Tang*
+- **Contrastive Multi-View Representation Learning on Graphs.** *Kaveh Hassani, Amir Hosein Khasahmadi*
+- **When Does Self-Supervision Help Graph Convolutional Networks?** ** ICML 2020.
+  - resources: [paper](http://proceedings.mlr.press/v119/you20a/you20a.pdf), [code](https://github.com/Shen-Lab/SS-GCNs)
+  - contributions:
+    - 3 schemes: pre-training/finetuning, self-training, multi-task training
+    - 3 tasks: node clustering, graph partitioning, graph completion
+    - multi-task training generalize better
+- **Deep Graph Infomax.** *Petar Veličković, William Fedus, William L. Hamilton, Pietro Liò, Yoshua Bengio, R Devon Hjelm.* ICLR 2019.
+  - resources: [paper](https://openreview.net/pdf?id=rklz9iAcKQ), [review](https://openreview.net/forum?id=rklz9iAcKQ), [code](https://github.com/PetarV-/DGI)
+  - contributions:
+    - Contrastive learning: create negative samples by permuting node representations, sampling a subgraph, sampling another graph
+    - Theoretical assurance, why?
+
+## Pre-training
+- **Learning to Pre-train Graph Neural Networks.** *Yuanfu Lu, Xunqiang Jiang, Yuan Fang, Chuan Shi.* AAAI 2021.
+  - resources: [paper](https://yuanfulu.github.io/publication/AAAI-L2PGNN.pdf), [code](https://github.com/rootlu/L2P-GNN)
+  - contributions:
+    - Narrow the gap between pre-training and fine-tuning via MAML.
+    - An academic dataset for pre-training.
+- **GPT-GNN: Generative Pre-Training of Graph Neural Networks.** *Ziniu Hu, Yuxiao Dong, Kuansan Wang, Kai-Wei Chang, Yizhou Sun.* KDD 2020. 
+    - resources: [paper](https://dl.acm.org/doi/pdf/10.1145/3394486.3403237), [code](https://github.com/acbull/GPT-GNN)
+- **GCC: Graph Contrastive Coding for Graph Neural Network Pre-Training.** *Jiezhong Qiu, Qibin Chen, Yuxiao Dong, Jing Zhang, Hongxia Yang, Ming Ding, Kuansan Wang, Jie Tang.* KDD 2020.
+  - resources: [paper](https://dl.acm.org/doi/pdf/10.1145/3394486.3403168), [code](https://github.com/THUDM/GCC), [slides](http://keg.cs.tsinghua.edu.cn/jietang/publications/GNN-Pre-train.pdf)
+- **Strategies for Pre-training Graph Neural Networks.** *Weihua Hu, Bowen Liu, Joseph Gomes, Marinka Zitnik, Percy Liang, Vijay Pande, Jure Leskovec.* ICLR 2020.
+  - resources: [paper](https://openreview.net/pdf?id=HJlWWJSFDH), [code](https://github.com/snap-stanford/pretrain-gnns), [project page](http://snap.stanford.edu/gnn-pretrain/), [review](https://openreview.net/forum?id=HJlWWJSFDH), [blog (CSDN)](https://blog.csdn.net/fnoi2014xtx/article/details/107066797), [my note](notes/pre-train_self-supervised/Strategies%20for%20Pre-training%20Graph%20Neural%20Networks_ICLR2020.md)
+  - contributions
+    - node level (unsupervised): Context Prediction, Attribute Masking
+    - graph level (supervised)

@@ -1,40 +1,46 @@
 [TOC]
+
 ## About
+
 Focused areas in graph neural networks (GNNs). Written in both English and Chinese.
+
 ## Template
+
 #### A Possible Subfield
+
 - **Title in bold font.** *Authors in italic font.* Journal / Conference year in normal font.
-  - group (optional): a famous group, e.g., Someone's group, Some University.
-  - [paper (must)](README.md), [code (optional)](README.md), [slides (optional)](README.md), [project page (optional)](README.md), [review (optional)](README.md) 
-  - blogs (optional): [blogs](README.md)
+  - resources: [paper (must)](README.md), [code (optional)](README.md), [slides (optional)](README.md), [project page (optional)](README.md), [review (optional)](README.md), [blogs (optional)](README.md), [m](README.md)[y](README.md)[ note (optional)](README.md)
   - contributions (must)
-    - In flexible forms.
-    - About the method.
-    - About the experiments.
-  - [note (optional)](README.md): write a note in markdown and provide the path of the file.
-    - path: `nodes/field/title_conference&year.md`
-## Expressive Power
-#### Permutation Equivariant GNNs
-## Pre-training / Self-supervised Learning
-#### Self-supervised / Unsupervised Learning
-#### Pre-training
-- **Strategies for Pre-training Graph Neural Networks.** *Weihua Hu, Bowen Liu, Joseph Gomes, Marinka Zitnik, Percy Liang, Vijay Pande, Jure Leskovec.* ICLR 2020.
-  - group: Jure Leskovec's group, Stanford University
-  - [paper](https://openreview.net/pdf?id=HJlWWJSFDH), [code](https://github.com/snap-stanford/pretrain-gnns), [project page](http://snap.stanford.edu/gnn-pretrain/), [review](https://openreview.net/forum?id=HJlWWJSFDH)
-  - blogs: [CSDN](https://blog.csdn.net/fnoi2014xtx/article/details/107066797)
-  - contributions
-    - method
-      - node level (unsupervised)
-        - Context Prediction
-        - Attribute Masking
-      - graph level (supervised)
-    - data
-      - [Biology](http://snap.stanford.edu/gnn-pretrain/data/bio_dataset.zip)
-      - [Chemistry](http://snap.stanford.edu/gnn-pretrain/data/chem_dataset.zip)
-  - [note](notes/pre-train_self-supervised/Strategies%20for%20Pre-training%20Graph%20Neural%20Networks_ICLR2020.md)
-## Deep GNNs
-## Scalable GNNs
-## Dynamic GNNs
-## Hypergraph
-## GNNs for Recommendation Systems
-## GNNs for Neural Relational Inference
+- **Semi-Supervised Classification with Graph Convolutional Networks.** *Thomas N. Kipf, Max Welling.* ICLR 2017.
+  - resources: [paper](https://openreview.net/pdf?id=SJU4ayYgl), [code](https://github.com/tkipf/gcn), [review](https://openreview.net/pdf?id=SJU4ayYgl), [blog](http://tkipf.github.io/graph-convolutional-networks/)
+  - contributions:
+    - A simple and numerically stable GCN in the spectral domain.
+    - Point out the connection between GCN and 1st-order Weisfeiler-Lehma test.
+    - Empirically show that the performance may degenerate as GCN goes deep.
+## [Survey](subfields/Survey)
+
+## [Researchers](subfields/Researchers.md)
+
+## [Expressive Power](subfields/Expressive%20Power.md)
+
+## [Pre-training / Self-supervised Learning](subfields/Pre-training+Self-supervised%20Learning.md)
+- Intro：Pre-training GNNs or training GNNs in a self-supervised manner to allow better generalization.
+- Notes: [cnblogs](https://www.cnblogs.com/hilbert9221/p/14375512.html)
+## [Deep GNNs](subfields/Deep%20GNNs.md)
+
+## [Scalable GNNs](subfields/Scalable%20GNNs.md)
+
+## [Hierarchical GNNs](subfields/Hierarchical%20GNNs.md)
+
+## [Dynamic GNNs](subfields/Dynamic%20GNNs.md)
+
+## [Hypergraph Neural Networks](subfields/Hypergraph%20Neural%20Networks.md)
+
+## [GNNs for Recommendation Systems](subfields/GNNs%20for%20Recommendation%20Systems.md)
+
+## [GNNs for Traffic Flow Forecasting](subfields/GNNs%20for%20Traffic%20Flow%20Forecasting.md)
+
+## [GNNs for Neural Relational Inference](subfields/GNNs%20for%20Neural%20Relational%20Inference.md)
+
+## [Miscellaneous](subfields/Miscellaneous.md)
+
