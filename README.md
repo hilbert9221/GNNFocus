@@ -2,7 +2,7 @@
 
 ## About
 
-Focused areas in graph neural networks (GNNs). Written in both English and Chinese.
+Focused areas in graph neural networks (GNNs). Written in both English and Chinese. Contributions are welcomed!
 
 ## Template
 
@@ -17,9 +17,6 @@ Focused areas in graph neural networks (GNNs). Written in both English and Chine
     - A simple and numerically stable GCN in the spectral domain.
     - Point out the connection between GCN and 1st-order Weisfeiler-Lehma test.
     - Empirically show that the performance may degenerate as GCN goes deep.
-## [Survey](subfields/Survey)
-
-## [Researchers](subfields/Researchers.md)
 
 ## [Expressive Power](subfields/Expressive%20Power.md)
 - Intro: Expressive Power of GNNs and permutation equivariant GNNs.
