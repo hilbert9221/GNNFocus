@@ -35,9 +35,9 @@ Focused areas in graph neural networks (GNNs). Written in both English and Chine
 
 ## [Hypergraph Neural Networks](subfields/Hypergraph%20Neural%20Networks.md)
 
-## [GNNs for Recommendation Systems](subfields/GNNs%20for%20Recommendation%20Systems.md)
+<!-- ## [GNNs for Recommendation Systems](subfields/GNNs%20for%20Recommendation%20Systems.md) -->
 
-## [GNNs for Traffic Flow Forecasting](subfields/GNNs%20for%20Traffic%20Flow%20Forecasting.md)
+<!-- ## [GNNs for Traffic Flow Forecasting](subfields/GNNs%20for%20Traffic%20Flow%20Forecasting.md) -->
 
 ## [GNNs for Neural Relational Inference](subfields/GNNs%20for%20Neural%20Relational%20Inference.md)
 
