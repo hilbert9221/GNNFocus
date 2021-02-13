@@ -1,0 +1,54 @@
+
+- **Rethinking Graph Regularization for Graph Neural Networks.** *Han Yang, Kaili Ma, James Cheng.* AAAI 2021.
+  - resources: [paper](https://arxiv.org/pdf/2009.02027)
+  - contributions:
+    - Deep MPNNs are equivalent to shallow MPNNs with consistency regularization.
+    - Continuously controlling the depth of GNNs without additional parameters.
+- **AdaGCN: Adaboosting Graph Convolutional Networks into Deep Models.** *Ke Sun, Zhouchen Lin, Zhanxing Zhu.* ICLR 2021.
+  - resources: [paper](https://openreview.net/pdf?id=QkRbdiiEjM), [review](https://openreview.net/forum?id=QkRbdiiEjM), [code](https://github.com/datake/AdaGCN)
+  - contributions:
+    - Aggregating information from high-order neighbors via adaboosting.
+    - Effectively resisting over-smoothing with more than 10 layers.
+- **Towards Deeper Graph Neural Networks with Differentiable Group Normalization.** *Kaixiong Zhou, Xiao Huang, Yuening Li, Daochen Zha, Rui Chen, Xia Hu.* NeurIPS 2020.
+  - resources: [paper](https://papers.nips.cc/paper/2020/file/33dd6dba1d56e826aac1cbf23cdcca87-Paper.pdf), [code](https://github.com/Kaixiong-Zhou/DGN)
+  - contributions:
+    - Proposing two metrics to measure over-smoothing problems in node classification tasks.
+    - Softly assigning nodes to different groups and applying group normalization. *Similar to DiffPool in NeurIPS 2018.*
+- **Simple and Deep Graph Convolutional Networks.** *Ming Chen, Zhewei Wei and Zengfeng Huang, Bolin Ding and Yaliang Li.* ICML 2020.
+  - resources: [paper](http://proceedings.mlr.press/v119/chen20v/chen20v.pdf), [code](https://github.com/chennnM/GCNII)
+  - contributions:
+    - Residual connection from the initial node attributes.
+    - Identity mapping that preserves node attributes during propagation.
+- **Towards Deeper Graph Neural Networks.** *Meng Liu, Hongyang Gao, Shuiwang Ji.* KDD 2020.
+  - resources: [paper](https://arxiv.org/pdf/2007.09296.pdf), [code](https://github.com/divelab/DeeperGNN)
+  - contributions:
+    - Typical GNNs can be decomposed to a transformation step and a propagation step, and the coupling of the two steps results in severe over-smoothing problem.
+    - Decoupling the two steps, propagating many times and transforming only once.
+    - Insightful and simple.
+- **DropEdge: Towards Deep Graph Convolutional Networks on Node Classification.** *Yu Rong, Wenbing Huang, Tingyang Xu, Junzhou Huang.* ICLR 2020.
+  - resources: [paper](https://openreview.net/pdf?id=Hkx1qkrKPr), [review](https://openreview.net/forum?id=Hkx1qkrKPr), [code](https://github.com/DropEdge/DropEdge)
+  - contributions:
+    - Borrowing the idea of dropout to randomly drop edges to resist over-smoothing.
+- **Measuring and Relieving the Over-smoothing Problem for Graph Neural Networks from the Topological View.** *Deli Chen, Yankai Lin, Wei Li, Peng Li, Jie Zhou, Xu Sun.* AAAI 2020.
+  - resources: [paper](https://arxiv.org/pdf/1909.03211.pdf)
+  - contributions:
+    - Calculating the average distance between a given node to the others to measure over-smoothing.
+    - Using the proposed metric as a regularization term.
+- **Simplifying graph convolutional networks.** *Felix Wu, Tianyi Zhang, Amauri Holanda de Souza Jr, Christopher Fifty, Tao Yu, Kilian Q Weinberger.* ICML 2019.
+  - resources: [paper](http://proceedings.mlr.press/v97/wu19e/wu19e.pdf), [code](https://github.com/Tiiiger/SGC)
+  - contributions:
+    - Removing the activation function and applying propagations k times.
+    - Conceptually insightful.
+- **DeepGCNs: Can GCNs Go as Deep as CNNs?** *Guohao Li and Matthias Müller and Ali Thabet and Bernard Ghanem.* ICCV 2019.
+  - resources: [paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_DeepGCNs_Can_GCNs_Go_As_Deep_As_CNNs_ICCV_2019_paper.pdf), [code](https://github.com/lightaime/deep_gcns_torch), [project homepage](https://www.deepgcns.org/)
+  - contributions:
+    - Residual connection, dense connection, dilated convolution.
+- **Representation Learning on Graphs with Jumping Knowledge Networks.** *Keyulu Xu, Chengtao Li, Yonglong Tian, Tomohiro Sonobe, Ken-ichi Kawarabayashi, Stefanie Jegelka.* ICML 2018.
+  - resources: [paper](http://proceedings.mlr.press/v80/xu18c/xu18c.pdf)
+  - contributions:
+    - Skip connection.
+    - Visualization of over-smoothing.
+- **Deeper Insights into Graph Convolutional Networks for Semi-Supervised Learning.** *Qimai Li, Zhichao Han, Xiao-Ming Wu.* AAAI 2018.
+  - resources: [paper](http://www4.comp.polyu.edu.hk/~csxmwu/papers/AAAI-2018-GCN.pdf)
+  - contributions:
+    - Analyzing the over-smoothing problem using Markov chain.

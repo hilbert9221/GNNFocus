@@ -7,10 +7,21 @@
   - contributions:
 - **Characterizing the Expressive Power of Invariant and Equivariant Graph Neural Networks.** *Waïss Azizian, Marc Lelarge.* ICLR 2021.
   - resources: [paper](https://openreview.net/pdf?id=lxHgXYN4bwl), [code](https://github.com/mlelarge/graph_neural_net), [review](https://openreview.net/forum?id=lxHgXYN4bwl)
-- **Distance Encoding: Design Provably More Powerful Neural Networks for Graph Representation Learning.** *Pan Li, Yanbang Wang, Hongwei Wang, Jure Leskovec.* NeurIPS 2020.
-  - resources: [paper](https://proceedings.neurips.cc/paper/2020/file/2f73168bf3656f697507752ec592c437-Paper.pdf), [project](http://snap.stanford.edu/distance-encoding/), [code](https://github.com/snap-stanford/distance-encoding)
-  - contributions: 
-    - promote the expressive power of GNNs by concatenating some distance (e.g. shortest path distance) to node attributes
+- **On Graph Neural Networks versus Graph-Augmented MLPs.** *Lei Chen, Zhengdao Chen, Joan Bruna.* ICLR 2021.
+  - resources: [paper](https://openreview.net/pdf?id=tiqI7w64JG2), [review](https://openreview.net/forum?id=tiqI7w64JG2)
+  - contributions:
+    - 
+- **Can Graph Neural Networks Count Substructures?** *Zhengdao Chen, Lei Chen, Soledad Villar, Joan Bruna.* NeurIPS 2020.
+  - resources: [paper](https://proceedings.neurips.cc/paper/2020/file/75877cb75154206c4e65e76b88a12712-Paper.pdf), [slides](https://cims.nyu.edu/~chenzh/files/GNN_substructures_short_slides.pdf)
+  - contributions:
+    - 
+- **What Can Neural Networks Reason About?** *Keyulu Xu, Jingling Li, Mozhi Zhang, Simon S. Du, Ken-ichi Kawarabayashi, Stefanie Jegelka.* ICLR 2020.
+  - resources: [paper](https://openreview.net/pdf?id=rJxbJeHFPS), [review](https://openreview.net/forum?id=rJxbJeHFPS)
+  - contributions:
+- **What Graph Neural Networks Cannot Learn: Depth versus Width.** *Andreas Loukas.* ICLR 2020.
+  - resources: [paper](https://openreview.net/pdf?id=B1l2bp4YwS), [review](https://openreview.net/forum?id=B1l2bp4YwS)
+  - contributions:
+    - 
 - **How Powerful are Graph Neural Networks.** *Keyulu Xu, Weihua Hu, Jure Leskovec, Stefanie Jegelka.* ICLR 2019.
   - resouces: [paper](https://openreview.net/pdf?id=ryGs6iA5Km), [review](https://openreview.net/forum?id=ryGs6iA5Km), [code](https://github.com/weihua916/powerful-gnns)
   - contributions:
@@ -29,7 +40,43 @@
   - resources: [paper](https://papers.nips.cc/paper/8488-provably-powerful-graph-networks), [review](https://proceedings.neurips.cc/paper/2019/file/bb04af0f7ecaee4aae62035497da1387-Reviews.html), [code](https://github.com/hadarser/ProvablyPowerfulGraphNetworks)
   - contributions: 
     - analyze the expressive power of GNNs via k order WL test and develop k-WL GNNs.
+- **On the Equivalence between Graph Isomorphism Testing and Function Approximation with GNNs.** *Zhengdao Chen, Soledad Villar, Lei Chen, Joan Bruna.* NeurIPS 2019.
+  - resources: [paper](https://papers.nips.cc/paper/9718-on-the-equivalence-between-graph-isomorphism-testing-and-function-approximation-with-gnns.pdf), [review]()
+- **Understanding the Representation Power of Graph Neural Networks in Learning Graph Topology.** *.* NeurIPS 2019.
+  - resources: [paper](https://papers.nips.cc/paper/2019/file/73bf6c41e241e28b89d0fb9e0c82f9ce-Paper.pdf), [review](), [code](https://github.com/nimadehmamy/Understanding-GCN)
 - **Invariant and Equivariant Graph Networks.** *Haggai Maron, Heli Ben-Hamu, Nadav Shamir, Yaron Lipman.* ICLR 2019.
   - resources: [paper](https://openreview.net/pdf?id=Syx72jC9tm), [review](https://openreview.net/forum?id=Syx72jC9tm), [code](https://github.com/Haggaim/InvariantGraphNetworks)
   - contributions: 
     - characterizing linear invariant/equivariant mappings by analyzing a linear fixed point equation.
+
+## Other Improvements
+- **Identity-aware Graph Neural Networks.** *Jiaxuan You, Jonathan Gomes-Selman, Rex Ying, Jure Leskovec.* AAAI 2021.
+  - resources: [paper](https://arxiv.org/pdf/2101.10320v1), [code](https://github.com/snap-stanford/GraphGym)
+  - contributions:
+    - Differentiate the center node and other nodes during message passing.
+    - Able to predict clustering coefficients and shortest path distance.
+    - Closely related to *Pan Li et al.*
+- **Distance Encoding – Design Provably More Powerful GNNs for Structural Representation Learning.** *Pan Li, Yanbang Wang, Hongwei Wang, Jure Leskovec.* NeurIPS 2020.
+  - resources: [paper](https://proceedings.neurips.cc/paper/2020/file/2f73168bf3656f697507752ec592c437-Paper.pdf), [project](http://snap.stanford.edu/distance-encoding/), [code](https://github.com/snap-stanford/distance-encoding)
+  - contributions:
+    - Pre-computing the distance of any node to a fixed node set and concatenating it to the node attribute.
+    - Able to capture the structural role of a node.
+    - Able to discriminate non-isomorphic k-regular graphs with high probability.
+- **Coloring Graph Neural Networks for Node Disambiguation.** *George Dasoulas, Ludovic Dos Santos, Kevin Scaman, Aladin Virmaux.* IJCAI-PRICA 2020.
+  - resources: [paper](https://arxiv.org/pdf/1912.06058.pdf)
+  - contributions:
+    - Randomly coloring nodes and aggregating information discriminatively.
+    - Empirical results are unstable.
+
+## Novel Message Passing Mechanisms
+- **DeeperGCN: All You Need to Train Deeper GCNs.** *Guohao Li, Chenxin Xiong, Ali Thabet, Bernard Ghanem.* CoRR 2020.
+  - resources: [paper](https://arxiv.org/pdf/2006.07739.pdf), [project homepage](https://www.deepgcns.org/)
+  - contributions:
+    - Generalized aggregation function with mean and max as limits.
+    - Message normalization.
+    - Limited novelty.
+- **Principal Neighbourhood Aggregation for Graph Nets.** *Gabriele Corso, Luca Cavalleri, Dominique Beaini, Pietro Liò, Petar Veličković.* NeurIPS 2020.
+  - resources: [paper](https://papers.nips.cc/paper/2020/file/99cad265a1768cc2dd013f0e740300ae-Paper.pdf), [cdoe](https://github.com/lukecavabarrett/pna)
+  - contributions:
+    - Normalized moments aggregation.
+    - Limited novelty.

@@ -26,6 +26,7 @@ Focused areas in graph neural networks (GNNs). Written in both English and Chine
 - Intro：Pre-training GNNs or training GNNs in a self-supervised manner to allow better generalization.
 - Notes: [cnblogs](https://www.cnblogs.com/hilbert9221/p/14375512.html)
 ## [Deep GNNs](subfields/Deep%20GNNs.md)
+- Intro: Analyzing the over-smoothing problem of GNNs and explore possible solutions to make GNNs deep.
 
 ## [Scalable GNNs](subfields/Scalable%20GNNs.md)
 
