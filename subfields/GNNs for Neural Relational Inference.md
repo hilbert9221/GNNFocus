@@ -1,0 +1,78 @@
+- **Neural Relational Inference with Efficient Message Passing Mechanisms.** *Siyuan Chen, Jiahai Wang, Guoqing Li.* AAAI 2021.
+  - resources: [paper](https://arxiv.org/pdf/2101.09486.pdf)
+  - contributions:
+    - Relation interaction mechanisms for relation prediction and spatio-temporal message passing mechanisms for future state prediction.
+    - An extension to NRI.
+- **Hierarchical Relational Inference** *Aleksandar Stanić, Sjoerd van Steenkiste, Jürgen Schmidhuber.* AAAI 2021.
+  - resources: [paper](https://arxiv.org/pdf/2010.03635.pdf)
+  - contributions:
+    - Hierarchical message passing mechanisms.
+    - Definition of hierarchy limited to images and CNN based models.
+- **Learning Continuous System Dynamics from Irregularly-Sampled Partial Observations.** *Zijie Huang, Yizhou Sun, Wei Wang.* NeurIPS 2020.
+  - resources: [paper](https://proceedings.neurips.cc/paper/2020/file/ba4849411c8bbdd386150e5e32204198-Paper.pdf), [review](https://proceedings.neurips.cc/paper/2020/file/ba4849411c8bbdd386150e5e32204198-Review.html)
+  - contributions:
+    - Combining NRI and NeuralODE to learn continuous dynamics with irregularly sampled data.
+- **EvolveGraph: Multi-Agent Trajectory Prediction with Dynamic Relational Reasoning.** *Jiachen Li, Fan Yang, Masayoshi Tomizuka, Chiho Choi.* NeurIPS 2020.
+  - resources: [paper](https://proceedings.neurips.cc/paper/2020/file/e4d8163c7a068b65a64c89bd745ec360-Paper.pdf), [review](https://proceedings.neurips.cc/paper/2020/file/e4d8163c7a068b65a64c89bd745ec360-Review.html)
+  - contributions:
+    - Extending NRI to dynamic and heterogeneous interaction graphs and applying NRI to trajectory prediction.
+- **Uncertainty in Neural Relational Inference Trajectory Reconstruction.** *Vasileios Karavias, Ben Day, Pietro Li`o.* ICMLW 2020.
+  - resources: [paper](https://grlplus.github.io/papers/55.pdf)
+  - contributions:
+    - Considering the uncertainty of state prediction using isotropic Gaussian.
+- **Dynamic Neural Relational Inference for Forecasting Trajectories.** *Colin Graber, Alexander Schwing.* CVPRW 2020.
+  - resources: [paper](http://openaccess.thecvf.com/content_CVPRW_2020/papers/w66/Graber_Dynamic_Neural_Relational_Inference_for_Forecasting_Trajectories_CVPRW_2020_paper.pdf), [code](https://github.com/cgraber/cvpr_dNRI)
+  - contributions:
+    - Inferring dynamic relations using RNNs with application to trajectory prediction.
+- **A General Deep Learning Framework for Network Reconstruction and Dynamics Learning.** Applied Network Science 2019.
+  - resources: [paper](https://appliednetsci.springeropen.com/track/pdf/10.1007/s41109-019-0194-4.pdf), [code](https://github.com/bnusss/GGN)
+  - contributions:
+    - Assuming a fixed graph and multiple obervational series.
+    - Extending NRI to more complex dynamical systems including discrete dynamical systems.
+- **Neural Relational Inference with Fast Modular Meta-learning.** *Ferran Alet, Erica Weng, Tomás Lozano-Pérez, Leslie Pack Kaelbling.* NeurIPS 2019.
+  - resources: [paper](http://papers.nips.cc/paper/9353-neural-relational-inference-with-fast-modular-meta-learning.pdf), [code](https://github.com/FerranAlet/modular-metalearning)
+  - contributions:
+    - Jointly inferring all relations as a whole via modular meta-learning.
+    - Inefficient implementation.
+- **Structure-Informed Graph Auto-Encoder for Relational Inference and Simulation.** *Yaguang Li, Chuizheng Meng, Cyrus Shahabi, Yan Liu.* ICMLW 2019.
+  - resources: [paper](https://graphreason.github.io/papers/22.pdf)
+  - contributions:
+    - Introducing structrual prior knowledge (symmetry, node degree distribution, edge type distribution, sparsity) to NRI.
+- **Factorised Neural Relational Inference for Multi-Interaction Systems.** *Ezra Webb, Ben Day, Helena Andres-Terre, Pietro Li´o.* ICMLW 2019.
+  - resources: [paper](https://arxiv.org/pdf/1905.08721.pdf), [code](https://github.com/ekwebb/fNRI)
+  - contributions:
+    - Extend NRI to multiplex graphs.
+- **Neural Relational Inference for Interacting Systems.** *Thomas Kipf, Ethan Fetaya, Kuan-Chieh Wang, Max Welling, Richard Zemel.* ICML 2018.
+  - resources: [paper](http://proceedings.mlr.press/v80/kipf18a/kipf18a.pdf), [code](https://github.com/ethanfetaya/NRI)
+  - contributions:
+    - **The first paper** that jointly infers explicit relations and learn dynamics in an unsupervised manner.
+
+## Related Work: Graph Strucutre Learning
+- **Discrete Graph Structure Learning for Forecasting Multiple Time Series.** *Chao Shang, Jie Chen, Jinbo Bi.* ICLR 2021.
+  - resources: [paper](https://openreview.net/pdf?id=WEHSlH5mOk), [review](https://openreview.net/forum?id=WEHSlH5mOk), [code](https://github.com/chaoshangcs/GTS)
+  - contributions:
+    - Similar ideas to NRI except that a fixed graph is assumed.
+- **Automated Discovery of Interactions and Dynamics for Large Networked Dynamical Systems.** *Yan Zhang ,Yu Guo ,Zhang Zhang ,Mengyuan Chen ,Shuo Wang ,Jiang Zhang.* CoRR 2020.
+   - resources: [paper](http://arxiv.org/pdf/2101.00179.pdf)
+   - contributions:
+     - Relation prediction for large-scale systems.
+- **Multi-agent Trajectory Prediction with Fuzzy Query Attention.** *Nitin Kamra, Hao Zhu, Dweep Kumarbhai Trivedi, Ming Zhang, Yan Liu.* NeurIPS 2020.
+  - resources: [paper](https://proceedings.neurips.cc/paper/2020/file/fe87435d12ef7642af67d9bc82a8b3cd-Paper.pdf), [review](https://proceedings.neurips.cc/paper/2020/file/fe87435d12ef7642af67d9bc82a8b3cd--Review.html)
+  - contributions:
+    - A novel attention mechanism that considers relative states and directions in additional to absolute states.
+- **Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks.** *Zonghan Wu, Shirui Pan, Guodong Long, Jing Jiang, Xiaojun Chang, Chengqi Zhang.* KDD 2020.
+  - resources: [paper](https://dl.acm.org/doi/10.1145/3394486.3403118), [code](https://github.com/nnzhan/MTGNN)
+  - contributions:
+    - Assuming a fixed graph and inferring it by top-k masking.
+- **An Evolutionary Multi-Objective Framework for Complex Network Reconstruction Using Community Structure.** *Kai Wu, Jing Liu, Xingxing Hao, Penghui Liu, Fang Shen* IEEE Transactions on Evolutionary Computation 2020.
+  - resources: [paper](https://ieeexplore.ieee.org/document/9180296), [code](https://github.com/SparseL/Community-NR)
+  - contributions:
+    - Split a large graph into communities via community detection and optimize subgraphs via evolutionary computation.
+## Related Work: Neural Networks for Physics Simulation.
+- **Learning to Simulate Complex Physics with Graph Networks.** *Alvaro Sanchez-Gonzalez, Jonathan Godwin, Tobias Pfaff, Zhitao Ying, Jure Leskovec, Peter Battaglia.* ICML 2020.
+  - resources: [paper](https://arxiv.org/pdf/2002.09405.pdf)
+  - contributions:
+- **Graph Networks as Learnable Physics Engines for Inference and Control.** *Alvaro Sanchez-Gonzalez, Nicolas Heess, Jost Tobias Springenberg, Josh Merel, Martin Riedmiller, Raia Hadsell, Peter Battaglia.* ICML 2018.
+  - resources: [paper](http://proceedings.mlr.press/v80/sanchez-gonzalez18a/sanchez-gonzalez18a.pdf)
+  - contributions:
+    - A general formulation of graph networks with applications to physics simulation.
