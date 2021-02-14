@@ -15,8 +15,8 @@ Focused areas in graph neural networks (GNNs). Written in both English and Chine
   - resources: [paper](https://openreview.net/pdf?id=SJU4ayYgl), [code](https://github.com/tkipf/gcn), [review](https://openreview.net/pdf?id=SJU4ayYgl), [blog](http://tkipf.github.io/graph-convolutional-networks/)
   - contributions:
     - A simple and numerically stable GCN in the spectral domain.
-    - Point out the connection between GCN and 1st-order Weisfeiler-Lehma test.
-    - Empirically show that the performance may degenerate as GCN goes deep.
+    - Pointing out the connection between GCN and 1st-order Weisfeiler-Lehma test.
+    - Empirically showing that the performance may degenerate as GCN goes deep.
 
 ## [Expressive Power](subfields/Expressive%20Power.md)
 - Intro: Expressive power of GNNs and permutation equivariant GNNs.
@@ -41,6 +41,8 @@ Focused areas in graph neural networks (GNNs). Written in both English and Chine
 <!-- ## [GNNs for Traffic Flow Forecasting](subfields/GNNs%20for%20Traffic%20Flow%20Forecasting.md) -->
 
 ## [GNNs for Neural Relational Inference](subfields/GNNs%20for%20Neural%20Relational%20Inference.md)
+Intro: Jointly inferring the interacting relations and learning the dynamics of dynamical systems in an unsupervised manner.
+First paper: **Neural Relational Inference for Interacting Systems.** ICML 2018. [paper](http://proceedings.mlr.press/v80/kipf18a/kipf18a.pdf)
 
 ## [Miscellaneous](subfields/Miscellaneous.md)
 
