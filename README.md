@@ -41,8 +41,8 @@ Focused areas in graph neural networks (GNNs). Written in both English and Chine
 <!-- ## [GNNs for Traffic Flow Forecasting](subfields/GNNs%20for%20Traffic%20Flow%20Forecasting.md) -->
 
 ## [GNNs for Neural Relational Inference](subfields/GNNs%20for%20Neural%20Relational%20Inference.md)
-Intro: Jointly inferring the interacting relations and learning the dynamics of dynamical systems in an unsupervised manner.
-First paper: **Neural Relational Inference for Interacting Systems.** ICML 2018. [paper](http://proceedings.mlr.press/v80/kipf18a/kipf18a.pdf)
+- Intro: Jointly inferring the interacting relations and learning the dynamics of dynamical systems in an unsupervised manner.
+- First paper: **Neural Relational Inference for Interacting Systems.** ICML 2018. [paper](http://proceedings.mlr.press/v80/kipf18a/kipf18a.pdf)
 
 ## [Miscellaneous](subfields/Miscellaneous.md)
 
