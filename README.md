@@ -1,5 +1,15 @@
 [TOC]
-
+- [About](#about)
+- [Template](#template)
+    - [A Possible Subfield](#a-possible-subfield)
+- [Expressive Power](#expressive-power)
+- [Pre-training / Self-supervised Learning](#pre-training--self-supervised-learning)
+- [Deep GNNs](#deep-gnns)
+- [Scalable GNNs](#scalable-gnns)
+- [Hierarchical GNNs](#hierarchical-gnns)
+- [Dynamic GNNs](#dynamic-gnns)
+- [Hypergraph Neural Networks](#hypergraph-neural-networks)
+- [GNNs for Neural Relational Inference](#gnns-for-neural-relational-inference)
 ## About
 
 Focused areas in graph neural networks (GNNs). Written in both English and Chinese. Contributions are welcomed!
