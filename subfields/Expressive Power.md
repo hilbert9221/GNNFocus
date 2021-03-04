@@ -71,7 +71,18 @@
   - resources: [paper](https://openreview.net/pdf?id=Syx72jC9tm), [review](https://openreview.net/forum?id=Syx72jC9tm), [code](https://github.com/Haggaim/InvariantGraphNetworks)
   - contributions: 
     - Characterizing linear invariant/equivariant mappings by analyzing a linear fixed point equation.
-
+## Novel Message Passing Mechanisms
+- **DeeperGCN: All You Need to Train Deeper GCNs.** *Guohao Li, Chenxin Xiong, Ali Thabet, Bernard Ghanem.* CoRR 2020.
+  - resources: [paper](https://arxiv.org/pdf/2006.07739.pdf), [project homepage](https://www.deepgcns.org/)
+  - contributions:
+    - Generalized aggregation function with mean and max as limits.
+    - Message normalization.
+    - Limited novelty.
+- **Principal Neighbourhood Aggregation for Graph Nets.** *Gabriele Corso, Luca Cavalleri, Dominique Beaini, Pietro Liò, Petar Veličković.* NeurIPS 2020.
+  - resources: [paper](https://papers.nips.cc/paper/2020/file/99cad265a1768cc2dd013f0e740300ae-Paper.pdf), [review](https://proceedings.neurips.cc/paper/2020/file/99cad265a1768cc2dd013f0e740300ae-Review.html), [cdoe](https://github.com/lukecavabarrett/pna)
+  - contributions:
+    - Normalized moments aggregation.
+    - Limited novelty.
 ## Other Improvements
 - **Identity-aware Graph Neural Networks.** *Jiaxuan You, Jonathan Gomes-Selman, Rex Ying, Jure Leskovec.* AAAI 2021.
   - resources: [paper](https://arxiv.org/pdf/2101.10320v1), [code](https://github.com/snap-stanford/GraphGym)
@@ -90,16 +101,3 @@
   - contributions:
     - Randomly coloring nodes and aggregating information discriminatively.
     - Empirical results are unstable.
-
-## Novel Message Passing Mechanisms
-- **DeeperGCN: All You Need to Train Deeper GCNs.** *Guohao Li, Chenxin Xiong, Ali Thabet, Bernard Ghanem.* CoRR 2020.
-  - resources: [paper](https://arxiv.org/pdf/2006.07739.pdf), [project homepage](https://www.deepgcns.org/)
-  - contributions:
-    - Generalized aggregation function with mean and max as limits.
-    - Message normalization.
-    - Limited novelty.
-- **Principal Neighbourhood Aggregation for Graph Nets.** *Gabriele Corso, Luca Cavalleri, Dominique Beaini, Pietro Liò, Petar Veličković.* NeurIPS 2020.
-  - resources: [paper](https://papers.nips.cc/paper/2020/file/99cad265a1768cc2dd013f0e740300ae-Paper.pdf), [review](https://proceedings.neurips.cc/paper/2020/file/99cad265a1768cc2dd013f0e740300ae-Review.html), [cdoe](https://github.com/lukecavabarrett/pna)
-  - contributions:
-    - Normalized moments aggregation.
-    - Limited novelty.
