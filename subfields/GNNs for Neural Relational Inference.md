@@ -72,6 +72,11 @@
 - **Learning to Simulate Complex Physics with Graph Networks.** *Alvaro Sanchez-Gonzalez, Jonathan Godwin, Tobias Pfaff, Zhitao Ying, Jure Leskovec, Peter Battaglia.* ICML 2020.
   - resources: [paper](https://arxiv.org/pdf/2002.09405.pdf)
   - contributions:
+    - Generalization to [Graph Nets](http://proceedings.mlr.press/v80/sanchez-gonzalez18a/sanchez-gonzalez18a.pdf).
+    - Allowing large scale simulation by defining edges locally.
+    - Mitigating the accumulation of error by corrupting the training data with noise.
+    - Generalizing to systems with more particles.
+    - Minimizing the accelerations rather than the positions.
 - **Graph Networks as Learnable Physics Engines for Inference and Control.** *Alvaro Sanchez-Gonzalez, Nicolas Heess, Jost Tobias Springenberg, Josh Merel, Martin Riedmiller, Raia Hadsell, Peter Battaglia.* ICML 2018.
   - resources: [paper](http://proceedings.mlr.press/v80/sanchez-gonzalez18a/sanchez-gonzalez18a.pdf)
   - contributions:

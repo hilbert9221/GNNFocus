@@ -6,6 +6,7 @@
 - [Chuan Shi](http://www.shichuan.org/ShiChuan_ch.html)'s Group, BUPT
   - Houye Ji: HAN
 - [Jian Tang](https://jian-tang.com/)'s Group, Mila
+- [Andreas Loukas](https://andreasloukas.blog/), EPFL
 - [Thomas Kipf](http://tkipf.github.io/), Google Brain: [GCN](https://github.com/tkipf/gcn)
 - [Petar Veličković](https://petar-v.com/), DeepMind: [GAT](https://github.com/PetarV-/GAT)
 - [Keyulu Xu](https://people.csail.mit.edu/keyulux/), MIT: [GIN](https://github.com/weihua916/powerful-gnns)

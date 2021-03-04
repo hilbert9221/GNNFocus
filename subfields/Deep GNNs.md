@@ -10,7 +10,7 @@
     - Aggregating information from high-order neighbors via adaboosting.
     - Effectively resisting over-smoothing with more than 10 layers.
 - **Towards Deeper Graph Neural Networks with Differentiable Group Normalization.** *Kaixiong Zhou, Xiao Huang, Yuening Li, Daochen Zha, Rui Chen, Xia Hu.* NeurIPS 2020.
-  - resources: [paper](https://papers.nips.cc/paper/2020/file/33dd6dba1d56e826aac1cbf23cdcca87-Paper.pdf), [code](https://github.com/Kaixiong-Zhou/DGN)
+  - resources: [paper](https://papers.nips.cc/paper/2020/file/33dd6dba1d56e826aac1cbf23cdcca87-Paper.pdf), [review](https://papers.nips.cc/paper/2020/file/33dd6dba1d56e826aac1cbf23cdcca87-Review.html), [code](https://github.com/Kaixiong-Zhou/DGN)
   - contributions:
     - Proposing two metrics to measure over-smoothing problems in node classification tasks.
     - Softly assigning nodes to different groups and applying group normalization. *Similar to DiffPool in NeurIPS 2018.*
@@ -19,6 +19,10 @@
   - contributions:
     - Residual connection from the initial node attributes.
     - Identity mapping that preserves node attributes during propagation.
+- **Continuous Graph Neural Networks.** *Louis-Pascal A. C. Xhonneux, Meng Qu, Jian Tang.* ICML 2020.
+  - resources: [paper](http://proceedings.mlr.press/v119/xhonneux20a/xhonneux20a.pdf), [code](https://github.com/DeepGraphLearning/ContinuousGNN)
+  - contributions:
+    - Constructing continuous GNNs by explicitly solving an ODE. Relying on NeuralODE.
 - **Towards Deeper Graph Neural Networks.** *Meng Liu, Hongyang Gao, Shuiwang Ji.* KDD 2020.
   - resources: [paper](https://arxiv.org/pdf/2007.09296.pdf), [code](https://github.com/divelab/DeeperGNN)
   - contributions:

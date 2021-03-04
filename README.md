@@ -21,6 +21,7 @@ Focused areas in graph neural networks (GNNs). Written in both English and Chine
 ## [Expressive Power](subfields/Expressive%20Power.md)
 - Intro: Expressive power of GNNs and permutation equivariant GNNs.
 - Survey: **A Survey on The Expressive Power of Graph Neural Networks.** *Ryoma Sato.* CoRR 2020. [paper](https://arxiv.org/pdf/2003.04078v4)
+- Notes: [cnblogs](https://www.cnblogs.com/hilbert9221/p/14443747.html)
 
 ## [Pre-training / Self-supervised Learning](subfields/Pre-training+Self-supervised%20Learning.md)
 - Intro：Pre-training GNNs or training GNNs in a self-supervised manner to allow better generalization.
@@ -44,5 +45,5 @@ Focused areas in graph neural networks (GNNs). Written in both English and Chine
 - Intro: Jointly inferring the interacting relations and learning the dynamics of dynamical systems in an unsupervised manner.
 - First paper: **Neural Relational Inference for Interacting Systems.** ICML 2018. [paper](http://proceedings.mlr.press/v80/kipf18a/kipf18a.pdf)
 
-## [Miscellaneous](subfields/Miscellaneous.md)
+<!-- ## [Miscellaneous](subfields/Miscellaneous.md) -->
 
