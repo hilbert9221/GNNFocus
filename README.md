@@ -42,6 +42,7 @@ Focused areas in graph neural networks (GNNs). Written in both English and Chine
 ## [Scalable GNNs](subfields/Scalable%20GNNs.md)
 
 ## [Hierarchical GNNs](subfields/Hierarchical%20GNNs.md)
+Intro: Learning hierarchical representations of graphs and developing pooling methods for GNNs.
 
 ## [Dynamic GNNs](subfields/Dynamic%20GNNs.md)
 
