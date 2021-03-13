@@ -20,6 +20,9 @@
 - **On Graph Neural Networks versus Graph-Augmented MLPs.** *Lei Chen, Zhengdao Chen, Joan Bruna.* ICLR 2021.
   - resources: [paper](https://openreview.net/pdf?id=tiqI7w64JG2), [review](https://openreview.net/forum?id=tiqI7w64JG2)
   - contributions:
+    - Identifying some GNNs that disentangle the propagation step and the transformation step as **Graph-augmented MLPs**.
+    - Showing that GNNs are more powerful than Graph-augmented MLPs in terms of graph isomorphism test, but the gap vanishes as the number of propagation steps turns to infinite.
+    - Studying the expressive power of GNNs at the node level using the concept of rooted graphs. (I don't understand.)
 - **Can Graph Neural Networks Count Substructures?** *Zhengdao Chen, Lei Chen, Soledad Villar, Joan Bruna.* NeurIPS 2020.
   - resources: [paper](https://proceedings.neurips.cc/paper/2020/file/75877cb75154206c4e65e76b88a12712-Paper.pdf), [review](https://proceedings.neurips.cc/paper/2020/file/75877cb75154206c4e65e76b88a12712-Review.html), [slides](https://cims.nyu.edu/~chenzh/files/GNN_substructures_short_slides.pdf)
   - contributions:

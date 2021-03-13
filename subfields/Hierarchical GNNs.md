@@ -1,0 +1,78 @@
+## Graph Coarsening and Differentiable Pooling
+- **Accurate Learning of Graph Representations with Graph Multiset Pooling.** *Jinheon Baek, Minki Kang, Sung Ju Hwang.* ICLR 2021.
+  - resources: [paper](https://openreview.net/pdf?id=JHcqXGaqiGn), [review](https://openreview.net/forum?id=JHcqXGaqiGn), [code](https://github.com/JinheonBaek/GMT)
+- **Graph Coarsening with Neural Networks.** *Chen Cai, Dingkang Wang, Yusu Wang.* ICLR 2021.
+  - resources: [paper](https://openreview.net/pdf?id=uxpzitPEooJ), [review](https://openreview.net/forum?id=uxpzitPEooJ)
+- **Rethinking pooling in graph neural networks.** *Diego Mesquita, Amauri Souza, Samuel Kaski.* NeurIPS 2020.
+  - resources: [paper](https://proceedings.neurips.cc/paper/2020/file/1764183ef03fc7324eb58c3842bd9a57-Paper.pdf), [review](https://proceedings.neurips.cc/paper/2020/file/1764183ef03fc7324eb58c3842bd9a57-Review.html), [code](https://github.com/AaltoPML/Rethinking-pooling-in-GNNs)
+  - contributions:
+    - Empirically showing that the gains of existing hierarchical GNNs come from the convolutional layers rather than the pooling layers, since stacking convolutional layers is sufficient to extract high order information in most cases.
+- **Path Integral Based Convolution and Pooling for Graph Neural Networks.** *Zheng Ma, Junyu Xuan, Yu Guang Wang, Ming Li, Pietro Liò.* NeurIPS 2020.
+  - resources: [paper](https://proceedings.neurips.cc/paper/2020/file/be53d253d6bc3258a8160556dda3e9b2-Paper.pdf), [review](https://proceedings.neurips.cc/paper/2020/file/be53d253d6bc3258a8160556dda3e9b2-Review.html)
+- **DiffGCN: Graph Convolutional Networks via Differential Operators and Algebraic Multigrid Pooling.** *Moshe Eliasof, Eran Treister.* NeurIPS 2020.
+  - resources: [paper](https://proceedings.neurips.cc/paper/2020/file/d16a974d4d6d0d71b29bfbfe045f1da7-Paper.pdf), [review](https://proceedings.neurips.cc/paper/2020/file/d16a974d4d6d0d71b29bfbfe045f1da7-Review.html)
+- **Graph Cross Networks with Vertex Infomax Pooling.** *Maosen Li, Siheng Chen, Ya Zhang, Ivor Tsang.* NeurIPS 2020.
+  - resources: [paper](https://proceedings.neurips.cc/paper/2020/file/a26398dca6f47b49876cbaffbc9954f9-Paper.pdf), [review](https://proceedings.neurips.cc/paper/2020/file/a26398dca6f47b49876cbaffbc9954f9-Review.html), [code](https://github.com/limaosen0/GXN)
+  - contributions:
+- **Haar Graph Pooling.** *Yuguang Wang, Ming Li, Zheng Ma, Guido Montufar, Xiaosheng Zhuang, Yanan Fan.* ICML 2020.
+  - resources: [paper](http://proceedings.mlr.press/v119/wang20m/wang20m.pdf), [slides](https://icml.cc/media/Slides/icml/2020/virtual(no-parent)-15-22-00UTC-6118-haar_graph_pool.pdf), [code](https://github.com/YuGuangWang/HaarPool)
+- **Spectral Clustering with Graph Neural Networks for Graph Pooling.** *Filippo Maria Bianchi, Daniele Grattarola, Cesare Alippi.* ICML 2020.
+  - resources: [paper](http://proceedings.mlr.press/v119/bianchi20a/bianchi20a.pdf), [code](https://github.com/FilippoMB/Spectral-Clustering-with-Graph-Neural-Networks-for-Graph-Pooling/blob/master/Clustering.py)
+- **AttPool: Towards Hierarchical Feature Representation in Graph Convolutional Networks via Attention Mechanism.** *Jingjia Huang, Zhangheng Li, Nannan Li1, Shan Liu, and Ge Li.* ICCV 2019.
+  - resources: [paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_AttPool_Towards_Hierarchical_Feature_Representation_in_Graph_Convolutional_Networks_via_ICCV_2019_paper.pdf), [code](https://github.com/silent567/attpool2)
+  - contributions:
+    - Top-k attentive pooling, inheriting **DiffPool** and **Graph U-Nets**.
+- **Graph U-Nets.** *Hongyang Gao, Shuiwang Ji.* ICML 2019.
+  - resources: [paper](https://proceedings.mlr.press/v97/gao19a/gao19a.pdf), [code](https://github.com/HongyangGao/Graph-U-Nets)
+  - contributions:
+    - Determining node importance via projection and select top-k nodes.
+    - Pooling and uppooling.
+    - Simple, principled and scalable.
+- **Relational Pooling for Graph Representations.** *Ryan Murphy, Balasubramaniam Srinivasan, Vinayak A Rao, Bruno Ribeiro.* ICML 2019.
+  - resources: [paper](http://proceedings.mlr.press/v97/murphy19a/murphy19a.pdf), [code](https://github.com/PurdueMINDS/RelationalPooling)
+- **Self-Attention Graph Pooling.** *Junhyun Lee, Inyeop Lee, Jaewoo Kang.* ICML 2019.
+  - resources: [paper](http://proceedings.mlr.press/v97/lee19c/lee19c.pdf), [code](https://github.com/inyeoplee77/SAGPool)
+  - contributions:
+    - Using the output of GCN to measure node importance and selecting top-k nodes.
+    - Limited novelty.
+- **Hierarchical Graph Convolutional Networks for Semi-supervised Node Classification.** *Fenyu Hu, Yanqiao Zhu, Shu Wu, Liang Wang, Tieniu Tan.* IJCAI 2019.
+- **Hierarchical Graph Representation Learning with Differentiable Pooling.** *Zhitao Ying, Jiaxuan You, Christopher Morris, Xiang Ren, Will Hamilton, Jure Leskovec.* NIPS 2018.
+  - resources: [paper](https://proceedings.neurips.cc/paper/2018/file/e77dbaf6759253c7c6d0efc5690369c7-Paper.pdf), [review](https://proceedings.neurips.cc/paper/2018/file/e77dbaf6759253c7c6d0efc5690369c7-Review.html), [code](https://github.com/RexYing/diffpool)
+  - contributions:
+    - Soft clustering via probabilistic assignment matrices.
+    - May not be scalable to large graphs as the assignment matrices are dense.
+- **Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering.** *Michaël Defferrard, Xavier Bresson, Pierre Vandergheynst.* NIPS 2016.
+  - resources: [paper](https://proceedings.neurips.cc/paper/2016/file/04df4d434d481c5bb723be1b6df1ee65-Paper.pdf), [review](https://proceedings.neurips.cc/paper/2016/file/04df4d434d481c5bb723be1b6df1ee65-Review.html), [code](https://github.com/mdeff/cnn_graph)
+  - contributions:
+    - Using Graclus multilevel clustering algorithm to conduct spectral clustering.
+## Hyperbolic GNNs
+- **Hyperbolic Deep Neural Networks: A Survey.** *Wei Peng, Tuomas Varanka, Abdelrahman Mostafa, Henglin Shi, Guoying Zhao.* CoRR 2021.
+  - resources: [paper](https://arxiv.org/pdf/2101.04562.pdf)
+- **Hyperbolic Graph Neural Networks.** *Qi Liu, Maximilian Nickel, Douwe Kiela.* NeurIPS 2019.
+  - resources: [paper](https://proceedings.neurips.cc/paper/2019/file/103303dd56a731e377d01f6a37badae3-Paper.pdf), [review](https://proceedings.neurips.cc/paper/2019/file/103303dd56a731e377d01f6a37badae3-Review.html), [code](https://github.com/facebookresearch/hgnn)
+  - contributions:
+    - Developing a simple scheme to define hyperbolic GNNs, mapping the embeddings to the Euclidean space and applying linear mapping, then pulling back.
+    - Exploring cases in Poincaré ball model and Lorentz model.
+- **Hyperbolic Graph Convolutional Neural Networks.** *Ines Chami, Rex Ying, Christopher Re, Jure Leskovec.* NeurIPS 2019.
+  - resources: [paper](https://proceedings.neurips.cc/paper/2019/file/0415740eaa4d9decbc8da001d3fd805f-Paper.pdf), [review](https://proceedings.neurips.cc/paper/2019/file/0415740eaa4d9decbc8da001d3fd805f-Review.html), [code](https://github.com/HazyResearch/hgcn)
+  - contributions:
+    - Sharing similar ideas with **Liu et al. NeurIPS 2019** except a trainable curvature.
+- **Riemannian Adaptive Optimization Methods.** *Gary Bécigneul, Octavian-Eugen Ganea.* ICLR 2019.
+  - resources: [paper](https://openreview.net/pdf?id=r1eiqi09K7), [review](https://openreview.net/forum?id=r1eiqi09K7), [unoffical but useful code](https://github.com/geoopt/geoopt)
+  - contributions:
+    - Anology to AMSGRAD in the hyperbolic space.
+- **Hyperbolic Attention Networks.** *Caglar Gulcehre, Misha Denil, Mateusz Malinowski, Ali Razavi, Razvan Pascanu, Karl Moritz Hermann, Peter Battaglia, Victor Bapst, David Raposo, Adam Santoro, Nando de Freitas.* ICLR 2019.
+  - resources: [paper](https://openreview.net/pdf?id=rJxHsjRqFQ), [review](https://openreview.net/forum?id=rJxHsjRqFQ)
+  - contributions:
+    - Using distance in the hyperbolic space to measure the dissimilarity between two vectors.
+    - Using Einstein midpoint to define the aggregation of attention.
+- **Hyperbolic Neural Networks.** *Octavian-Eugen Ganea, Gary Bécigneul.* NIPS 2018.
+  - resources: [paper](https://proceedings.neurips.cc/paper/2018/file/dbab2adc8f9d078009ee3fa810bea142-Paper.pdf), [review](https://proceedings.neurips.cc/paper/2018/file/dbab2adc8f9d078009ee3fa810bea142-Review.html), [code](https://github.com/dalab/hyperbolic_cones), [blog](http://hyperbolicdeeplearning.com/)
+  - contributions:
+    - A Comprehensive yet concise introduction of elements of hyperbolic spaces for machine learning.
+    - Defining anologies of LR, MLP and RNN in the hyperbolic space.
+- **Poincaré Embeddings for Learning Hierarchical Representations.** *Maximilian Nickel, Douwe Kiela.* NIPS 2017.
+  - resources: [paper](https://papers.nips.cc/paper/2017/file/59dfa2df42d9e3d41f5b02bfc32229dd-Paper.pdf), [review](https://papers.nips.cc/paper/2017/file/59dfa2df42d9e3d41f5b02bfc32229dd-Review.html), [code](https://github.com/facebookresearch/poincare-embeddings)
+  - contributions:
+    - First paper introducing the hyperbolic space to graph machine learning.
+    - Defining inner product and corresponding derivatives in the hyperbolic space.
