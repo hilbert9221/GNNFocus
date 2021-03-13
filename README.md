@@ -40,6 +40,7 @@ Focused areas in graph neural networks (GNNs). Written in both English and Chine
 - Intro: Analyzing the over-smoothing problem of GNNs and explore possible solutions to make GNNs deep.
 
 ## [Scalable GNNs](subfields/Scalable%20GNNs.md)
+Intro: Applying GNNs to large-scale graphs.
 
 ## [Hierarchical GNNs](subfields/Hierarchical%20GNNs.md)
 Intro: Learning hierarchical representations of graphs and developing pooling methods for GNNs.
