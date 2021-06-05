@@ -40,12 +40,14 @@ Focused areas in graph neural networks (GNNs). Written in both English and Chine
 - Intro: Analyzing the over-smoothing problem of GNNs and explore possible solutions to make GNNs deep.
 
 ## [Scalable GNNs](subfields/Scalable%20GNNs.md)
-Intro: Applying GNNs to large-scale graphs.
+- Intro: Applying GNNs to large-scale graphs.
 
 ## [Hierarchical GNNs](subfields/Hierarchical%20GNNs.md)
-Intro: Learning hierarchical representations of graphs and developing pooling methods for GNNs.
+- Intro: Learning hierarchical representations of graphs and developing pooling methods for GNNs.
 
 ## [Dynamic GNNs](subfields/Dynamic%20GNNs.md)
+- Intro: Designing GNNs for dynamic graphs whose graph structure and attributes vary over time.
+- Survey: **Representation Learning for Dynamic Graphs: A Survey.** JMLR 2020. [paper](https://jmlr.csail.mit.edu/papers/volume21/19-447/19-447.pdf)
 
 ## [Hypergraph Neural Networks](subfields/Hypergraph%20Neural%20Networks.md)
 

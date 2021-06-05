@@ -3,6 +3,12 @@
   - contributions:
     - A timely and detailed survey on the expressive power of GNNs.
     - Bridging two descriptions of the expressive power of GNNs, graph isomorphism tests and combinational optimization problems.
+- **From Local Structures to Size Generalization in Graph Neural Networks.** *Gilad Yehudai, Ethan Fetaya, Eli Meirom, Gal Chechik, Haggai Maron.* ICML 2021.
+  - resources: [paper](https://arxiv.org/pdf/2010.08853v2)
+  - contributions:
+    - Recursively define d-patterns to messure the expressive power of GNNs.
+    - Prove that GNNs fail to generalize to unseen d-patterns (e.g., trained on small graphs, tested on large graphs with unseen d-patterns)
+    - Empirically propose to tackle the size generalization problem with self-supervised learning by defining pre-text tasks.
 - **How Neural Networks Extrapolate: From Feedforward to Graph Neural Networks.** *Keyulu Xu, Mozhi Zhang, Jingling Li, Simon S. Du, Ken-ichi Kawarabayashi, Stefanie Jegelka.* ICLR 2021.
   - resources: [paper](https://openreview.net/pdf?id=UH-cmocLJC), [review](https://openreview.net/forum?id=UH-cmocLJC)
   - contributions:
@@ -51,6 +57,10 @@
     - Developing GIN.
 
 ## Permutation Equivariant GNNs
+- **Weisfeiler and Lehman Go Topological: Message Passing Simplicial Networks.** *Cristian Bodnar, Fabrizio Frasca, Yu Guang Wang, Nina Otter, Guido Montúfar, Pietro Liò, Michael Bronstein.* ICML 2021.
+  - resources: [paper](https://arxiv.org/pdf/2103.03212v1.pdf)
+  - contributions:
+    - Regard a graph as a special simplical complex and define message passing over simplical complexex with strictly more expressive power than MPNN
 - **Isometric Transformation Invariant and Equivariant Graph Convolutional Networks.** *Masanobu Horie, Naoki Morita, Toshiaki Hishinuma, Yu Ihara, Naoto Mitsume.* ICLR 2021.
 - **Natural Graph Networks.** *Pim de Haan, Taco Cohen, Max Welling.* NeurIPS 2020.
   - resources: [paper](https://proceedings.neurips.cc/paper/2020/file/2517756c5a9be6ac007fe9bb7fb92611-Paper.pdf), [review](https://proceedings.neurips.cc/paper/2020/file/2517756c5a9be6ac007fe9bb7fb92611-Review.html)
@@ -75,6 +85,10 @@
   - contributions: 
     - Characterizing linear invariant/equivariant mappings by analyzing a linear fixed point equation.
 ## Novel Message Passing Mechanisms
+- **E(n) Equivariant Graph Neural Networks.** *Victor Garcia Satorras, Emiel Hoogeboom, Max Welling.* ICML 2021.
+  - resources: [paper](https://arxiv.org/pdf/2102.09844v1.pdf), [code](https://github.com/lucidrains/egnn-pytorch)
+  - contributions:
+    - Introducing E(n) (rotation, reflection and translation) equivariant GNNs. Useful for trajectory prediction and molecular properties prediction.
 - **DeeperGCN: All You Need to Train Deeper GCNs.** *Guohao Li, Chenxin Xiong, Ali Thabet, Bernard Ghanem.* CoRR 2020.
   - resources: [paper](https://arxiv.org/pdf/2006.07739.pdf), [project homepage](https://www.deepgcns.org/)
   - contributions:
@@ -87,6 +101,19 @@
     - Normalized moments aggregation.
     - Limited novelty.
 ## Other Improvements
+- **Graph Neural Networks Inspired by Classical Iterative Algorithms.** *Yongyi Yang, Tang Liu, Yangkun Wang, Jinjing Zhou, Quan Gan, Zhewei Wei, Zheng Zhang, Zengfeng Huang, David Wipf.* ICML 2021.
+  - resources: [paper](https://arxiv.org/pdf/2103.06064v1)
+  - contributions:
+    - Reinterpret GNNs (matrix multiplication based) as the solution of an optimization problem with Laplacian regularization.
+    - Provide efficient iterative algorithms to find optimals.
+    - Competitive or better performance on various types of datasets, even compared with models tailored for specific types of tasks.
+    - Provide a principled way to define robust GNNs and avoid oversmoothing.
+- **Interpreting and Unifying Graph Neural Networks with An Optimization Framework.** *Meiqi Zhu, Xiao Wang, Chuan Shi, Houye Ji, Peng Cui.* WWW 2021.
+  - resources: [paper](https://arxiv.org/pdf/2101.11859v1)
+  - contributions:
+    - Explicity identify many popular spectral GNNs with multiple layers within an optimization problem with Laplacian regularization.
+    - Analyze the expressive power of spectral GNNs by analyzing the coefficients of spectral polynomials.
+    - Propose more expressive GNNs by defining optimization problems capturing low-pass / high-pass signals.
 - **Identity-aware Graph Neural Networks.** *Jiaxuan You, Jonathan Gomes-Selman, Rex Ying, Jure Leskovec.* AAAI 2021.
   - resources: [paper](https://arxiv.org/pdf/2101.10320v1), [code](https://github.com/snap-stanford/GraphGym)
   - contributions:

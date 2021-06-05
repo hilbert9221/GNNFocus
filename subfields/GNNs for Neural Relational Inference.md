@@ -4,7 +4,7 @@
     - Relation interaction mechanisms for relation prediction and spatio-temporal message passing mechanisms for future state prediction.
     - An extension to NRI.
 - **Hierarchical Relational Inference** *Aleksandar Stanić, Sjoerd van Steenkiste, Jürgen Schmidhuber.* AAAI 2021.
-  - resources: [paper](https://arxiv.org/pdf/2010.03635.pdf)
+  - resources: [paper](https://arxiv.org/pdf/2010.03635.pdf), [code](https://github.com/astanic/hri)
   - contributions:
     - Hierarchical message passing mechanisms.
     - Definition of hierarchy limited to images and CNN based models.
@@ -52,6 +52,10 @@
   - resources: [paper](https://openreview.net/pdf?id=WEHSlH5mOk), [review](https://openreview.net/forum?id=WEHSlH5mOk), [code](https://github.com/chaoshangcs/GTS)
   - contributions:
     - Similar ideas to NRI except that a fixed graph is assumed.
+- **Time-Series Event Prediction with Evolutionary State Graph.** *Wenjie Hu, Yang Yang, Ziqiang Cheng, Carl Yang, Xiang Ren.* WSDM 2020.
+  - resources: [paper](https://arxiv.org/pdf/1905.05006v4), [code](https://github.com/VachelHU/EvoNet)
+  - contributions:
+    - Weighted evolving graphs over time windows.
 - **Automated Discovery of Interactions and Dynamics for Large Networked Dynamical Systems.** *Yan Zhang ,Yu Guo ,Zhang Zhang ,Mengyuan Chen ,Shuo Wang ,Jiang Zhang.* CoRR 2020.
    - resources: [paper](http://arxiv.org/pdf/2101.00179.pdf)
    - contributions:

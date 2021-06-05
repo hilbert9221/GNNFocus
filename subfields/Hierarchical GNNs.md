@@ -1,4 +1,10 @@
 ## Graph Coarsening and Differentiable Pooling
+- **SUGAR: Subgraph Neural Network with Reinforcement Pooling and Self-Supervised Mutual Information Mechanism.** *Qingyun Sun, Jianxin Li, Hao Peng, Jia Wu, Yuanxing Ning, Phillip S. Yu, Lifang He.* WWW 2021.
+  - resources: [paper](https://arxiv.org/pdf/2101.08170v3), [code](https://github.com/RingBDStack/SUGAR)
+  - contributions:
+    - Learn to select representative subgraphs and ensemble subgraph representations to a graph representation.
+    - Control the selecting procedure via reinforcement learning.
+    - Enforce agreement betweeen subgraph representations and the full graph representation via contrastive self-supervised learning.
 - **Accurate Learning of Graph Representations with Graph Multiset Pooling.** *Jinheon Baek, Minki Kang, Sung Ju Hwang.* ICLR 2021.
   - resources: [paper](https://openreview.net/pdf?id=JHcqXGaqiGn), [review](https://openreview.net/forum?id=JHcqXGaqiGn), [code](https://github.com/JinheonBaek/GMT)
 - **Graph Coarsening with Neural Networks.** *Chen Cai, Dingkang Wang, Yusu Wang.* ICLR 2021.
