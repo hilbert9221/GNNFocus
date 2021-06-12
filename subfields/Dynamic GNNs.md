@@ -4,16 +4,15 @@
 - **Foundations and modelling of dynamic networks using Dynamic Graph Neural Networks: A survey.** *Joakim Skarding, Bogdan Gabrys, Katarzyna Musial.* CoRR 2020.
   - resources: [paper](https://export.arxiv.org/pdf/2005.07496)
   - contributions:
-- **Dynamic Graph Neural Networks.** *Yao Ma, Ziyi Guo, Zhaochun Ren, Eric Zhao, Jiliang Tang, Dawei Yin.* AAAI 2021.
-  - resources: [paper](), [code](https://github.com/IBM/EvolveGCN)
-  - contributions:
-    - Encode the dynamics of graphs into the parameters of graph neural networks.
-    - Sounds not general and the experimental results are unsatisfactory.
 - **DySAT: Deep Neural Representation Learning on Dynamic Graphs via Self-Attention Networks.** *Aravind Sankar, Yanhong Wu, Liang Gou, Wei Zhang, and Hao Yang.* WSDM 2020.
   - resources: [paper](https://arxiv.org/pdf/1812.09430.pdf), [code](https://github.com/aravindsankar28/DySAT)
   - contributions:
 - **Streaming Graph Neural Networks.** *Yao Ma, Ziyi Guo, Zhaochun Ren, Eric Zhao, Jiliang Tang, Dawei Yin.* CIKM 2020.
   - resources: [paper](https://arxiv.org/pdf/1810.10627)
   - contributions:
-
+- **EvolveGCN: Evolving Graph Convolutional Networks for Dynamic Graphs.** *Aldo Pareja, Giacomo Domeniconi, Jie Chen, Tengfei Ma, Toyotaro Suzumura, Hiroki Kanezashi, Tim Kaler, Charles E. Leisersen.* AAAI 2020.
+  - resources: [paper](https://aaai.org/ojs/index.php/AAAI/article/view/5984/5840), [code](https://github.com/IBM/EvolveGCN)
+  - contributions:
+    - Encode the dynamics of graphs into the parameters of graph neural networks.
+    - Sounds not general and the experimental results are unsatisfactory.
 ## Dynamic Network Embedding
