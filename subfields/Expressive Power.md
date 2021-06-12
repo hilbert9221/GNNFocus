@@ -3,6 +3,12 @@
   - contributions:
     - A timely and detailed survey on the expressive power of GNNs.
     - Bridging two descriptions of the expressive power of GNNs, graph isomorphism tests and combinational optimization problems.
+- **Breaking the Limits of Message Passing Graph Neural Networks.** *Muhammet Balcilar, Pierre Héroux, Benoit Gaüzère, Pascal Vasseur, Sébastien Adam, Paul Honeine.* ICML 2021.
+  - resources: [paper](https://arxiv.org/pdf/2106.04319), [code](https://github.com/balcilar/gnn-matlang)
+  - contributions:
+    - Use a so-called [**MATRIX LANGUAGE**](http://adrem.uantwerpen.be/bibrem/pubs/MLonGRaphs.pdf) to characterize the expressive power in GNNs by considering the linear algebra they use, including matrix multiplication and addtition, elementwise multiplication, taking trace, etc.
+    - Point out that recording matrix powers help distinguish some graphs indistinguishable by 1st order WL-test, and motivate the design of including infinite number of Laplacian powers by learning a function over the spectrum of the graphs.
+    - Provide a memory efficient implementation of the proposed GNNs. However, it seems the dimension of the hidden layer depends on the number of non-zero elements of matrix powers, which varyies over graphs, making the proposed GNNs not inductive. Besides, maybe it not suitable for large graphs, since the adjacency matrices are oversized.
 - **From Local Structures to Size Generalization in Graph Neural Networks.** *Gilad Yehudai, Ethan Fetaya, Eli Meirom, Gal Chechik, Haggai Maron.* ICML 2021.
   - resources: [paper](https://arxiv.org/pdf/2010.08853v2)
   - contributions:

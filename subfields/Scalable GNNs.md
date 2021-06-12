@@ -1,3 +1,10 @@
+- **GNNAutoScale: Scalable and Expressive Graph Neural Networks via Historical Embeddings.** *Matthias Fey, Jan E. Lenssen, Frank Weichert, Jure Leskovec.* ICML 2021.
+  - resouces: [paper](https://arxiv.org/pdf/2106.05609), [code](https://github.com/rusty1s/pyg_autoscale)
+  - contributions:
+    - Point out that sampling based methods for scability inevitably lose expressiveness.
+    - Introduce extra memroy to maintain historical embeddings to approximate those out of batch, and prove the error bounds with an assumption of Lipschitz continuity.
+    - Empirically show that the performance is comparable with full-batch training methods, while the memory consumption is on par with sampling based methods.
+    - Make public an efficient PyG implementation of the proposed method.
 - **Scalable Graph Neural Networks via Bidirectional Propagation.** *Ming Chen, Zhewei Wei, Bolin Ding, Yaliang Li, Ye Yuan, Xiaoyong Du, Ji-Rong Wen.* NeurIPS 2020.
   - resources: [paper](https://papers.nips.cc/paper/2020/file/a7789ef88d599b8df86bbee632b2994d-Paper.pdf), [code](https://github.com/chennnM/GBP)
   - contributions:
