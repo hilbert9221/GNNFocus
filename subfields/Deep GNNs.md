@@ -1,4 +1,10 @@
-
+- **Training Graph Neural Networks with 1000 Layers.** *Guohao Li, Matthias Muller, Bernard Ghanem, Vladlen Koltun.* ICML 2021.
+  - resources: [paper](https://arxiv.org/pdf/2106.07476v1)
+  - contributions:
+    - Introduce grouped reversible GNNs that backpropagate using the output of latter layers, which is GPU memory economic.
+      - **Inspiration:** The memory bottleneck of training deep neural networks lies in the backpropagation procedure, i.e., one need to explicitly store all intermediate states to calculate the gradients. Smart designs like reversible neural networks can avoid this by efficiently calculate the gradient using the results in the forward pass.
+    - Introduce weight-tied GNNs, i.e., different layers share the same parameters. The performance of this method is limited by the number of paramters.
+    - Introduce deep equilibrium GNNs, sharing similar ideas like the ancient fixed-point based GNNs, achieving infinite layer of depth by solving a fixed-point equation. The performance of this method is also limited to the number of parameters.
 - **Rethinking Graph Regularization for Graph Neural Networks.** *Han Yang, Kaili Ma, James Cheng.* AAAI 2021.
   - resources: [paper](https://arxiv.org/pdf/2009.02027)
   - contributions:

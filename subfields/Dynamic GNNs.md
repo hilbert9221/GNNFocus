@@ -1,15 +1,31 @@
-- **Representation Learning for Dynamic Graphs: A Survey.** *Seyed Mehran Kazemi, Rishab Goel, Kshitij Jain, Ivan Kobyzev, Akshay Sethi, Peter Forsyth, Pascal Poupart.* JMLR 2020.
-  - resources: [paper](https://jmlr.csail.mit.edu/papers/volume21/19-447/19-447.pdf)
-  - contributions:
 - **Foundations and modelling of dynamic networks using Dynamic Graph Neural Networks: A survey.** *Joakim Skarding, Bogdan Gabrys, Katarzyna Musial.* CoRR 2020.
   - resources: [paper](https://export.arxiv.org/pdf/2005.07496)
   - contributions:
+    - Propose 3 key dimensions for categorizing dynmamic graphs, i.e., with static or dynamic nodes / edges, over discrete or continuous times, and with temporal (highly dynamic) or evolving (stable) dynamics.
+    - Reviewing main types of models, pseudo-dynamic models, discrete time dynamic GNNs, continuous time dynamic GNNs and temporal point process based models.
+- **Representation Learning for Dynamic Graphs: A Survey.** *Seyed Mehran Kazemi, Rishab Goel, Kshitij Jain, Ivan Kobyzev, Akshay Sethi, Peter Forsyth, Pascal Poupart.* JMLR 2020.
+  - resources: [paper](https://jmlr.csail.mit.edu/papers/volume21/19-447/19-447.pdf)
+  - contributions:
+    - Use a unified encoder-decoder framework for learning on dynamic graphs over discrete or continuous times.
+    - Main types of methods encoding dynamic graphs.
+      - Ensemble dynamic graphs into a single static graphs.
+      - Aggregate node / edge / graph embeddings over times into a static representation.
+      - Use regularization terms to ensure consistency between temporal adjacent embeddings.
+      - Randon walk based methods that check if previous walks are valid in the current graph.
+      - RNNs based models.
+      - Map node / edge / graph together with the timestamp to a vector.
+      - Tensor decomposition based methods.
+      - Lazy update of embeddings triggered by modifications in graph structures, like edge addition / deletion.
 - **DySAT: Deep Neural Representation Learning on Dynamic Graphs via Self-Attention Networks.** *Aravind Sankar, Yanhong Wu, Liang Gou, Wei Zhang, and Hao Yang.* WSDM 2020.
   - resources: [paper](https://arxiv.org/pdf/1812.09430.pdf), [code](https://github.com/aravindsankar28/DySAT)
   - contributions:
+    - Capture structural and temporal dependencies via attention mechanisms.
 - **Streaming Graph Neural Networks.** *Yao Ma, Ziyi Guo, Zhaochun Ren, Eric Zhao, Jiliang Tang, Dawei Yin.* CIKM 2020.
   - resources: [paper](https://arxiv.org/pdf/1810.10627)
   - contributions:
+    - Formulate the dynamic network embedding problem within the framework of continual learning, attempting to introducing new patterns as well as keeping historical patterns
+    - Propose an effective way to detect new patterns.
+    - Preseve existing patterns from the view of data and model, while the former is implemented by graph sampling and the latter is implemented by minimizing the difference between the parameters of current model and the latest model.
 - **EvolveGCN: Evolving Graph Convolutional Networks for Dynamic Graphs.** *Aldo Pareja, Giacomo Domeniconi, Jie Chen, Tengfei Ma, Toyotaro Suzumura, Hiroki Kanezashi, Tim Kaler, Charles E. Leisersen.* AAAI 2020.
   - resources: [paper](https://aaai.org/ojs/index.php/AAAI/article/view/5984/5840), [code](https://github.com/IBM/EvolveGCN)
   - contributions:

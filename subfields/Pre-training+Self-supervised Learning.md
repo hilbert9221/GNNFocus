@@ -1,5 +1,9 @@
 [TOC]
 ## Self-supervised / Unsupervised Learning
+- **Self-supervised Graph-level Representation Learning with Local and Global Structure.** *Minghao Xu, Hang Wang, Bingbing Ni, Hongyu Guo, Jian Tang.* ICML 2021.
+  - resources: [paper](https://arxiv.org/pdf/2106.04113.pdf), [code](https://github.com/DeepGraphLearning/GraphLoG)
+- **Graph Contrastive Learning Automated.** *Yuning You, Tianlong Chen, Yang Shen, Zhangyang Wang.* ICML 2021.
+  - resources: [paper](https://arxiv.org/abs/2106.07594), [code](https://github.com/Shen-Lab/GraphCL_Automated)
 - **Contrastive and Generative Graph Convolutional Networks for Graph Based Semi-supervised Learning.** *Sheng Wan, Shirui Pan, Jian Yang, Chen Gong.* AAAI 2021.
   - resources: [paper](https://arxiv.org/pdf/2009.07111v1)
   - contributions:
