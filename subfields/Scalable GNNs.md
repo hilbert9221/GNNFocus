@@ -1,3 +1,9 @@
+- **Global Neighbor Sampling for Mixed CPU-GPU Training on Giant Graphs.** *Jialin Dong, Da Zheng, Lin F. Yang, Geroge Karypis.* KDD 2021.
+  - resources: [paper](https://arxiv.org/pdf/2106.06150)
+  - contributions:
+    - Point out that the bottleneck of training GNNs over large graphs lies in copying data from CPU memory to GPU memory.
+    - Maintain a cache in GPU memory to store a small number of most probably visited node embeddings, and aggregate these embeddings weighted by their importance.
+    - Provide error analysis of the proposed method.
 - **GNNAutoScale: Scalable and Expressive Graph Neural Networks via Historical Embeddings.** *Matthias Fey, Jan E. Lenssen, Frank Weichert, Jure Leskovec.* ICML 2021.
   - resouces: [paper](https://arxiv.org/pdf/2106.05609), [code](https://github.com/rusty1s/pyg_autoscale)
   - contributions:

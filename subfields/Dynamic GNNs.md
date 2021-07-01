@@ -32,3 +32,10 @@
     - Encode the dynamics of graphs into the parameters of graph neural networks.
     - Sounds not general and the experimental results are unsatisfactory.
 ## Dynamic Network Embedding
+- **DyRep: Learning Representations over Dynamic Graphs.** *Rakshit Trivedi1, Mehrdad Farajtabar, Prasenjeet Biswal, Hongyuan Zha.* ICLR 2019.
+  - resources: [paper](https://openreview.net/pdf?id=HyePrhR5KX), [review](https://openreview.net/forum?id=HyePrhR5KX)
+  - contributions:
+    - Model network dynamics as an interplay between two stochastic processes, association process (dynamics **of** the network, topological variations) and communication process (dynamics **on** the network, interactions between nodes), within a framework of neural temporal point process.
+      - **Question:** how to define the two types of events in specific applications?
+    - Parametrize an intensity function for pairwise correlations.
+    - Learn node embeddings by considering self-propagation, exogenous drive and localized propgation.

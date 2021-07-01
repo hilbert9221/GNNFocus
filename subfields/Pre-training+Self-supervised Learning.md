@@ -1,5 +1,9 @@
 [TOC]
 ## Self-supervised / Unsupervised Learning
+- **Self-supervised Heterogeneous Graph Neural Network with Co-contrastive Learning.** *Xiao Wang, Nian Liu, Hui Han, Chuan Shi.* KDD 2021.
+  - resources: [paper](https://arxiv.org/pdf/2105.09111), [code](https://github.com/liun-online/HeCo)
+  - contributions:
+    - Construt positive pairs by obtaining node representations from the network schema view and the meta-path view.
 - **Self-supervised Graph-level Representation Learning with Local and Global Structure.** *Minghao Xu, Hang Wang, Bingbing Ni, Hongyu Guo, Jian Tang.* ICML 2021.
   - resources: [paper](https://arxiv.org/pdf/2106.04113.pdf), [code](https://github.com/DeepGraphLearning/GraphLoG)
 - **Graph Contrastive Learning Automated.** *Yuning You, Tianlong Chen, Yang Shen, Zhangyang Wang.* ICML 2021.
@@ -39,6 +43,13 @@
     - Theoretical assurance, why?
 
 ## Pre-training
+- **Pre-training on Large-Scale Heterogeneous Graph.** ** KDD 2021.
+  - resources: [paper](http://www.shichuan.org/doc/111.pdf), [code](https://github.com/BUPT-GAMMA/PTHGNN)
+  - contributions:
+    - **First attempt** for Pre-training GNNs over heterogeneous graphs.
+    - Node-level task: contrastive learning between nodes of the same type.
+    - Schema-level task: point out that meta-paths and motifs are not suitable for pre-training tasks, as they capture only low level and high level structures only. Design contrastive learning based on schema instances instead.
+    - Propose a PageRank algorithm for heterogeneous graphs to find a sparsified graph that preserves most useful information as well as reduce the computation overhead.
 - **Learning to Pre-train Graph Neural Networks.** *Yuanfu Lu, Xunqiang Jiang, Yuan Fang, Chuan Shi.* AAAI 2021.
   - resources: [paper](https://yuanfulu.github.io/publication/AAAI-L2PGNN.pdf), [code](https://github.com/rootlu/L2P-GNN)
   - contributions:
