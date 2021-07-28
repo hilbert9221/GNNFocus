@@ -107,6 +107,10 @@
     - Normalized moments aggregation.
     - Limited novelty.
 ## Other Improvements
+- **Elastic Graph Neural Networks.** *Xiaorui Liu, Wei Jin, Yao Ma, Yaxin Li, Hua Liu, Yiqi Wang, Ming Yan, Jiliang Tang.* ICML 2021.
+  - resources: [paper](https://arxiv.org/pdf/2107.06996), [code](https://github.com/lxiaorui/ElasticGNN)
+  - contributions:
+    - Reformulate popular GNNs as solving the graph signal denoising problem (an optimization problem), introduce l1 / l21 regularization to the optimization problem, and solve them via primal gradient descent (by defining a conjuate function).
 - **Graph Neural Networks Inspired by Classical Iterative Algorithms.** *Yongyi Yang, Tang Liu, Yangkun Wang, Jinjing Zhou, Quan Gan, Zhewei Wei, Zheng Zhang, Zengfeng Huang, David Wipf.* ICML 2021.
   - resources: [paper](https://arxiv.org/pdf/2103.06064v1)
   - contributions:

@@ -1,3 +1,15 @@
+- **Scaling Up Graph Neural Networks Via Graph Coarsening.** *Zengfeng Huang, Shengzhong Zhang, Chong Xi, Tang Liu, Min Zhou.* ICML 2021.
+  - resources: [paper](https://arxiv.org/pdf/2106.05150v1), [code](https://github.com/szzhang17/Scaling-Up-Graph-Neural-Networks-Via-Graph-Coarsening)
+  - contributions:
+    - Train GNNs on a coarsened graph, which can be obtained from off-the-shelf coarsening methods, and transfer the learned model to the node classification task. Avoid sampling and allow full-batch training.
+    - The proposed method can be viewed as learning low dimensional subspace representation with sparsity constraints imposed by some pre-defined norm.
+- **Approximate Graph Propagation.** *Hanzhi Wang, Mingguo He, Zhewei Wei, Sibo Wang, Ye Yuan, Xiaoyong Du, Ji-Rong Wen.* KDD 2021.
+  - resources: [paper](https://arxiv.org/pdf/2106.03058)
+  - contributions:
+    - Define a general propagation matrix for GNNs in the form of infinite series that allows flexible combinations of multi-hop information.
+    - Approximate the infinite series with its partial sum under a given error tolerrance.
+    - Propose an iterative algorithm to calculate the partial sum, and further propose a randomized version to reduce the computational cost with controlled error.
+    - The propagation procedure is linear of the node features, and therefore, the back-propagation is similar to typical propagation-based GNNs. The additional computational cost lies in pre-computing the propagation matrix.
 - **Global Neighbor Sampling for Mixed CPU-GPU Training on Giant Graphs.** *Jialin Dong, Da Zheng, Lin F. Yang, Geroge Karypis.* KDD 2021.
   - resources: [paper](https://arxiv.org/pdf/2106.06150)
   - contributions:
