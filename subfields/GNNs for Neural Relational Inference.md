@@ -1,5 +1,21 @@
+- **Roto-translated Local Coordinate Frames For Interacting Dynamical Systems.** *Miltiadis Kofinas, Naveen Nagaraja, Efstratios Gavves.* NeurIPS 2021.
+  - resources: [paper](https://proceedings.neurips.cc/paper/2021/file/32b991e5d77ad140559ffb95522992d0-Paper.pdf), [code](https://github.com/mkofinas/locs), [slides](https://mkofinas.github.io/publication/locs/neurips_2021_presentation.pdf)
+  - contributions:
+    - Incoparating the translation and rotation invariance to NRI.
+    - The relative position is used to ensure the translation invariance.
+    - Parametrized orthogonal matrices are used to ensure the rotation invariance as well as keeping the model capacity.
+    - Benefitting from the geometric properties, anisotropic filters can be applied to the positions.
+    - **MY DOUBT.** The translation and rotation invariance may not hold for other times series than trajectories.
+- **Conditional Neural Relational Inference for Interacting Systems.** *Joao A. Candido Ramos, Lionel Blondé, Stéphane Armand, Alexandros Kalousis.* ECML-PKDD 2021.
+  - resources: [paper](https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_775.pdf)
+  - contributions:
+    - Allowing conditional generation of NRI given arbitrarily possible interaction graphs over a fixed set of nodes, i.e., the interaction graph is not necessarily inferred by the historical states. This method is applied to human gait prediction.  
+- **Neural Relation Inference for Multi-dimensional Temporal Point Processes via Message Passing Graph.** *Yunhao Zhang, Junchi Yan.* IJCAI 2021.
+  - resources: [paper](https://www.ijcai.org/proceedings/2021/0469.pdf)
+  - contributions:
+    - Combining NRI with temporal point process for relation discovery.
 - **Neural Relational Inference with Efficient Message Passing Mechanisms.** *Siyuan Chen, Jiahai Wang, Guoqing Li.* AAAI 2021.
-  - resources: [paper](https://arxiv.org/pdf/2101.09486.pdf)
+  - resources: [paper](https://arxiv.org/pdf/2101.09486.pdf), [code](https://github.com/hilbert9221/NRI-MPM)
   - contributions:
     - Relation interaction mechanisms for relation prediction and spatio-temporal message passing mechanisms for future state prediction.
     - An extension to NRI.
